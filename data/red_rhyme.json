@@ -1,0 +1,272 @@
+{
+    "tokens": [
+        {
+            "hidden": [
+                {
+                    "name": "initial",
+                    "status": "initial",
+                    "to": [
+                        {
+                            "name": "Proper Noun",
+                            "value": 1.0
+                        },
+                        {
+                            "name": "Verb",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "Noun",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "Adverb",
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ],
+            "observed": [
+                {
+                    "name": "Proper Noun",
+                    "to" : [
+                        { "name": "Ted", "value": 0.5 },
+                        { "name": "Fred", "value": 0.5 },
+                        { "name": "Mary", "value": 0.0 }
+                    ]
+                },
+                {
+                    "name": "Verb",
+                    "to" : [
+                        { "name": "likes", "value": 0.5 },
+                        { "name": "lives", "value": 0.25 },
+                        { "name": "sees", "value": 0.25 }
+                    ]
+                },
+                {
+                    "name": "Noun",
+                    "to" : [
+                        { "name": "red", "value": 0.66 },
+                        { "name": "green", "value": 0.33 }
+                    ]
+                },
+                {
+                    "name": "Adverb",
+                    "to" : [
+                        { "name": "now", "value": 0.66 },
+                        { "name": "sometimes", "value": 0.33 }
+                    ]
+                }
+            ]
+        },
+        {
+            "hidden": [
+                {
+                    "name": "Proper Noun",
+                    "status": "active",
+                    "to" : [
+                        { "name": "Verb", "value": 0.0 },
+                        { "name": "Adverb", "value": 1.0 }
+                    ]
+                },
+                {
+                    "name": "Verb",
+                    "status": "cut",
+                    "to" : [
+                        { "name": "Proper Noun", "value": 0.0 },
+                        { "name": "Noun", "value": 0.0 }
+                    ]
+                },
+                {
+                    "name": "Noun",
+                    "status": "cut",
+                    "to" : []
+                },
+                {
+                    "name": "Adverb",
+                    "status": "cut",
+                    "to" : [
+                        { "name": "Verb", "value": 0.0 }
+                    ]
+                }
+            ],
+            "observed": [
+                {
+                    "name": "Proper Noun",
+                    "to" : [
+                        { "name": "Ted", "value": 0.2 },
+                        { "name": "Fred", "value": 0.6 },
+                        { "name": "Mary", "value": 0.2 }
+                    ]
+                },
+                {
+                    "name": "Verb",
+                    "to" : [
+                        { "name": "likes", "value": 0.5 },
+                        { "name": "lives", "value": 0.25 },
+                        { "name": "sees", "value": 0.25 }
+                    ]
+                },
+                {
+                    "name": "Noun",
+                    "to" : [
+                        { "name": "red", "value": 0.66 },
+                        { "name": "green", "value": 0.33 }
+                    ]
+                },
+                {
+                    "name": "Adverb",
+                    "to" : [
+                        { "name": "now", "value": 0.66 },
+                        { "name": "sometimes", "value": 0.33 }
+                    ]
+                }
+            ]
+        },
+        {
+            "hidden": [
+                {
+                    "name": "Proper Noun",
+                    "status": "inactive",
+                    "to" : [
+                        { "name": "Verb", "value": 0.0 },
+                        { "name": "Adverb", "value": 0.0 }
+                    ]
+                },
+                {
+                    "name": "Verb",
+                    "status": "inactive",
+                    "to" : [
+                        { "name": "Proper Noun", "value": 0.0 },
+                        { "name": "Noun", "value": 0.0 }
+                    ]
+                },
+                {
+                    "name": "Noun",
+                    "status": "inactive",
+                    "to" : []
+                },
+                {
+                    "name": "Adverb",
+                    "status": "active",
+                    "to" : [
+                        { "name": "Verb", "value": 1.0 }
+                    ]
+                }
+            ],
+            "observed": [
+                {
+                    "name": "Proper Noun",
+                    "to" : [
+                        { "name": "Ted", "value": 0.2 },
+                        { "name": "Fred", "value": 0.6 },
+                        { "name": "Mary", "value": 0.2 }
+                    ]
+                },
+                {
+                    "name": "Verb",
+                    "to" : [
+                        { "name": "likes", "value": 0.5 },
+                        { "name": "lives", "value": 0.25 },
+                        { "name": "sees", "value": 0.25 }
+                    ]
+                },
+                {
+                    "name": "Noun",
+                    "to" : [
+                        { "name": "red", "value": 0.66 },
+                        { "name": "green", "value": 0.33 }
+                    ]
+                },
+                {
+                    "name": "Adverb",
+                    "to" : [
+                        { "name": "now", "value": 0.66 },
+                        { "name": "sometimes", "value": 0.33 }
+                    ]
+                }
+            ]
+        },
+        {
+            "hidden": [
+                {
+                    "name": "Proper Noun",
+                    "status": "inactive",
+                    "to" : [
+                        { "name": "Verb", "value": 0.0 },
+                        { "name": "Adverb", "value": 0.0 }
+                    ]
+                },
+                {
+                    "name": "Verb",
+                    "status": "active",
+                    "to" : [
+                        { "name": "Proper Noun", "value": 0.0 },
+                        { "name": "Noun", "value": 1.0 }
+                    ]
+                },
+                {
+                    "name": "Noun",
+                    "status": "inactive",
+                    "to" : []
+                },
+                {
+                    "name": "Adverb",
+                    "status": "inactive",
+                    "to" : [
+                        { "name": "Verb", "value": 0.0 }
+                    ]
+                }
+            ],
+            "observed": [
+                {
+                    "name": "Proper Noun",
+                    "to" : [
+                        { "name": "Ted", "value": 0.2 },
+                        { "name": "Fred", "value": 0.6 },
+                        { "name": "Mary", "value": 0.2 }
+                    ]
+                },
+                {
+                    "name": "Verb",
+                    "to" : [
+                        { "name": "likes", "value": 0.5 },
+                        { "name": "lives", "value": 0.25 },
+                        { "name": "sees", "value": 0.25 }
+                    ]
+                },
+                {
+                    "name": "Noun",
+                    "to" : [
+                        { "name": "red", "value": 1.0 },
+                        { "name": "green", "value": 0.0 }
+                    ]
+                },
+                {
+                    "name": "Adverb",
+                    "to" : [
+                        { "name": "now", "value": 0.66 },
+                        { "name": "sometimes", "value": 0.33 }
+                    ]
+                }
+            ]
+        }
+    ],
+    "lastHiddenStatuses": [
+        {
+            "name": "Proper Noun",
+            "status": "cut"
+        },
+        {
+            "name": "Verb",
+            "status": "cut"
+        },
+        {
+            "name": "Noun",
+            "status": "active"
+        },
+        {
+            "name": "Adverb",
+            "status": "cut"
+        }
+    ]
+}

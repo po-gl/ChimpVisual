@@ -1,0 +1,17 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  color: gray;
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+	/* width: 100%; */
+	text-align: center;
+	z-index: 100;
+	display:block;
+}
